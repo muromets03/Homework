@@ -1,0 +1,25 @@
+
+body{
+  margin: 0 auto;
+}
+
+.main{
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 20px;
+  background-color: rgb(196, 191, 191);
+}
+
+
+
+.image_sea{
+  width: 350px;
+  height: 250px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 15px;
+  border: solid 5px grey;
+  background-color: #fff;
+
+
+}
