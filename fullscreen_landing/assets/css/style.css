@@ -1,106 +1,96 @@
-body{
-  
+body {
   margin: 0;
-  background-color: rgb(236, 229, 221);
-  color:#926239;
   font-size: 8px;
+  background-color: rgb(236, 229, 221);
+  color: #926239;
 }
 
-.welcome-section{
-
+.welcome-section {
   box-sizing: border-box;
   height: 100vh;
-  padding-top: 30vh; 
+  padding-top: 30vh;
   background-position-x: 75%;
   background-position-y: 60%;
-  background-image:  url(/images/beachshowcase.jpg);
+  background-image: url(../images/beachshowcase.jpg);
   background-size: cover;
   text-align: center;
-
 }
 
-.welcome-section-heading{
-  display: block;
-  height: 5%;
+.welcome-section-heading {
+  display: inline-block;
+  max-width: 620px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 6em;
   line-height: 1.6;
-  min-width: 15em;
-  max-width: 25em;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.welcome-section-link{
+.welcome-section-link {
+  display: inline-block;
+  max-width: 100px;
   padding: 10px 20px;
   border: #926239 1px solid;
   border-radius: 10px;
-  color: #926239;
-  white-space: nowrap;
   font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #926239;
   text-decoration: none;
+  text-overflow: ellipsis;
 }
 
-.welcome-section-content{
+.welcome-section-content {
   font-size: 3em;
 }
 
-
-.center-section{
+.center-section {
   display: block;
   padding: 20px;
   background-color: #926239;
   color: #f4f4f4;
   line-height: 1.6;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 17px ;
+  font-size: 17px;
   text-align: center;
 }
 
-.under-center-section{
-  color: #926239;
+.under-center-section {
   background-color: #f9f9f9;
-  
+  color: #926239;
 }
 
 .footer-section {
   padding: 20px;
+  line-height: 1.6;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 17px;
-  line-height: 1.6;
 }
 
 .left-footer-section {
   display: inline-block;
-  box-sizing:border-box;
+  box-sizing: border-box;
   height: 30%;
   width: 33.33%;
   background-color: #926239;
-  color:#f9f9f9;
-  
-
-
+  color: #f9f9f9;
 }
 
-.center-footer-section{
- 
+.center-footer-section {
   display: inline-block;
-  box-sizing:border-box;
+  box-sizing: border-box;
   height: 30%;
   width: 33.33%;
-  background-color:  #f9f9f9;
-  color:#926239;
-  
-
+  background-color: #f9f9f9;
+  color: #926239;
 }
 
 .right-footer-section {
- 
   display: inline-block;
-  box-sizing:border-box;
+  box-sizing: border-box;
   height: 30%;
   width: 33.33%;
   background-color: #926239;
-  color:#f9f9f9;
-
-
+  color: #f9f9f9;
 }
